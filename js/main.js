@@ -25,7 +25,7 @@ request.onload = function () {
 
     console.log(status.id);
   });
-  $('pic').html(statusHTML);
+  $('card').html(statusHTML);
 }
 
 request.send();
